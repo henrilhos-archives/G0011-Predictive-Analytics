@@ -35,6 +35,6 @@ Em um cenário de e-commerce, a empresa está enfrentando desafios relacionados 
 
 ### a. Gerar dados ou colher dados relacionados ao problema proposto
 
-Os dados foram gerados utilizando o script [`generate_data.py`](./generate-data.py) e salvos em um banco de dados local Mongo. Um dump com dados gerados pode ser encontrado na pasta [`dump`](./dump/).
+Os dados foram gerados utilizando o script [`01-generate_data.py`](./01-generate-data.py) e salvos em um banco de dados local Mongo. Um dump com dados gerados pode ser encontrado na pasta [`dump`](./dump/).
 
 ### b. Executar as operações ETL de modo que altere o estado desses dados de estado bruto para estado pré-processado
