@@ -40,3 +40,17 @@ Em um cenário de e-commerce, a empresa está enfrentando desafios relacionados 
 Os dados foram gerados utilizando o script [`01-generate_data.py`](./01-generate-data.py) e salvos em um banco de dados local Mongo. Um dump com dados gerados pode ser encontrado na pasta [`dump`](./dump/).
 
 ### b. Executar as operações ETL de modo que altere o estado desses dados de estado bruto para estado pré-processado
+
+## N3
+
+---
+
+Esta avaliação poderá ser solucionada em dupla, mas na interação (avaliação _in-loco_) da entrega será observado a participação individual. O objetivo é finalizar o fluxo de trabalho iniciado com as atividades N1, as quais foram expandidas com as atividades N2.Para tanto, pede-se que nesta avaliação haja a continuidade com a solução do problema apresentada na avaliação anterior, bem como os dados transformados e contidos no repositório,objetivando a construção de um ou mais modelos preditivos (quando mais que um faça a comparação), seguido de uma análise de resultado.
+
+Os passos para apresentação _in-loco_ (dupla ou individual):
+
+1. Resgate do problema/solução anterior (1,0);
+2. Exibir os dados transformados (resultado da ETL anterior) (1,0);
+3. Pipeline(s) para a modelagem preditiva (3,0);
+4. Apresentar o(s) resultado(s) do(s) modelo(s) com ao menos duas métricas de análise preditiva (5,0).
+   a. Análise do resultado (explicações, suposições feitas pelo Analista de Dados).
