@@ -54,3 +54,13 @@ Os passos para apresentação _in-loco_ (dupla ou individual):
 3. Pipeline(s) para a modelagem preditiva (3,0);
 4. Apresentar o(s) resultado(s) do(s) modelo(s) com ao menos duas métricas de análise preditiva (5,0).
    a. Análise do resultado (explicações, suposições feitas pelo Analista de Dados).
+
+---
+
+### 1. Resgate do problema/solução anterior
+
+Os dados foram resgatados utilizando o script [`02-etl-data.py`](./02-etl-data.py) agrupados e salvos em um `.csv` chamado [`merged_data.csv`](./merged_data.csv).
+
+### 2. Exibir os dados transformados
+
+Para visualizar os dados transformados, basta abrir o arquivo `.csv` [`merged_data.csv`](./merged_data.csv).
