@@ -64,3 +64,7 @@ Os dados foram resgatados utilizando o script [`02-etl-data.py`](./02-etl-data.p
 ### 2. Exibir os dados transformados
 
 Para visualizar os dados transformados, basta abrir o arquivo `.csv` [`merged_data.csv`](./merged_data.csv).
+
+### 3. Pipeline(s) para a modelagem preditiva
+
+A pipeline de modelagem preditiva foi criada utilizando o notebook [`03-predictive-model.ipynb`](./03-predictive-model.ipynb).
