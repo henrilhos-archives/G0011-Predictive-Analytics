@@ -64,3 +64,15 @@ Para visualizar os dados transformados, basta abrir o arquivo `.csv` [`merged_da
 ### 3. Pipeline(s) para a modelagem preditiva
 
 A pipeline de modelagem preditiva foi criada utilizando o notebook [`03-predictive-model.ipynb`](./03-predictive-model.ipynb).
+
+#### 4. Apresentar o(s) resultado(s) do(s) modelo(s) com ao menos duas métricas de análise preditiva
+
+No final da pipeline de modelagem preditiva encontrada no notebook [`03-predictive-model.ipynb`](./03-predictive-model.ipynb) foi realizado a avaliação do modelo utilizando duas métricas de análise preditiva, a Mean Squared Error (MSE) e a R-squared (R2).
+
+##### Mean Squared Error (MSE)
+
+O resultado do MSE foi de 0.00014764677341096556, indicando erros bem baixos entre os valores verdadeiros e os valores previstos, ou seja, o modelo está realizando previsões altamente precisas no conjunto de testes.
+
+##### R-squared (R2)
+
+O resultado do R2 foi de 0.9998908987764662, indicando que uma proporção extremamente elevada da variância na variável dependente é explicada pelo modelo, sugerindo que o modelo se ajusta muito bem aos dados, capturando quase toda a variabilidade em torno da média.
