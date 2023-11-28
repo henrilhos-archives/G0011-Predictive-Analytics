@@ -4,15 +4,13 @@
 
 ## N2
 
----
+### 1. Problema de Análise Preditiva
 
-## 1. Problema de Análise Preditiva
-
-### a. Descrever o problema
+#### a. Descrever o problema
 
 Em um cenário de e-commerce, a empresa está enfrentando desafios relacionados à gestão de estoque de produtos. Os problemas incluem excesso de estoque em alguns itens, resultando em custos de armazenamento elevados, e falta de estoque em outros, levando a perda de vendas e insatisfação dos clientes. A empresa deseja uma análise detalhada para otimizar sua gestão de estoque.
 
-### b. Descrever a solução proposta
+#### b. Descrever a solução proposta
 
 1. **Coleta de dados**
    - Reunir dados históricos de vendas e estoque para um período significativo.
@@ -33,17 +31,15 @@ Em um cenário de e-commerce, a empresa está enfrentando desafios relacionados 
 
 ---
 
-## 2. Disponibilizar no repositório, dados minimamente suficientes para a solução proposta
+### 2. Disponibilizar no repositório, dados minimamente suficientes para a solução proposta
 
-### a. Gerar dados ou colher dados relacionados ao problema proposto
+#### a. Gerar dados ou colher dados relacionados ao problema proposto
 
 Os dados foram gerados utilizando o script [`01-generate_data.py`](./01-generate-data.py) e salvos em um banco de dados local Mongo. Um dump com dados gerados pode ser encontrado na pasta [`dump`](./dump/).
 
-### b. Executar as operações ETL de modo que altere o estado desses dados de estado bruto para estado pré-processado
+#### b. Executar as operações ETL de modo que altere o estado desses dados de estado bruto para estado pré-processado
 
 ## N3
-
----
 
 Esta avaliação poderá ser solucionada em dupla, mas na interação (avaliação _in-loco_) da entrega será observado a participação individual. O objetivo é finalizar o fluxo de trabalho iniciado com as atividades N1, as quais foram expandidas com as atividades N2.Para tanto, pede-se que nesta avaliação haja a continuidade com a solução do problema apresentada na avaliação anterior, bem como os dados transformados e contidos no repositório,objetivando a construção de um ou mais modelos preditivos (quando mais que um faça a comparação), seguido de uma análise de resultado.
 
